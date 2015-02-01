@@ -1,0 +1,39 @@
+/*Sliding boxes from build internet http://buildinternet.com/2009/03/sliding-boxes-and-captions-with-jquery*/
+.boxgrid { 
+	width: 253px; 
+	height: 159px; 
+	margin:0px; 
+	float:left; 
+	background:#161613; 
+	overflow: hidden; 
+	position: relative; 
+}
+.boxgrid img{ 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	border: 0;
+	background-color:#fff;
+}
+.boxgrid p { 
+	padding: 0 10px; 
+	color:#afafaf; 
+	font-weight:bold; 
+	font:10pt "Lucida Grande", Arial, sans-serif; 
+}
+
+.boxcaption{ 
+	float: left; 
+	position: absolute; 
+	background: #000; 
+	height: 100px; 
+	width: 100%; 
+}
+.captionfull .boxcaption {
+	top: 260px;
+	left: 0;
+}
+.caption .boxcaption {
+	top: 220px;
+	left: 0;
+}
